@@ -38,13 +38,13 @@ MainWindow::MainWindow(QWidget *parent) :
     Cubo* trave3 = new Cubo();
     Cubo* trave4 = new Cubo();
     Cubo* travessao2 = new Cubo();
-    Esfera* teste123 = new Esfera();
+    //Esfera* teste123 = new Esfera();
 
-    teste123->escalar(new Vertice(2,2,2));
-    teste123->transladar(new Vertice(2,2,2));
-    for(int i = 0; i < teste123->listaFace.size();i++){
-            teste123->listaFace[i]->mat->setMaterialOpenGL(24);
-       }
+    //teste123->escalar(new Vertice(2,2,2));
+    //teste123->transladar(new Vertice(2,2,2));
+    //for(int i = 0; i < teste123->listaFace.size();i++){
+    //        teste123->listaFace[i]->mat->setMaterialOpenGL(24);
+    //   }
 
     trave1->escalar(new Vertice(0.01,0.244,0.01));
     trave1->transladar(new Vertice(9,0.244,0.732));
